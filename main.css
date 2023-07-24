@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+main {
+    background-color: 	rgb(243,243,243);
+}
+
+  
+.background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.background-image {
+    width: 100vw;
+    height: 120vh;
+}
+
+.background-text h3 {
+    color: gold;
+}
+
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    font-family: Julius Sans One;
+}
+
+.background-text h3::before {
+    content: "";
+    display: block;
+    width: 15vw;
+    height: 3px;
+    background: gold;
+    left: 875px;
+    top: 50%;
+    position: absolute;
+}
+
+.background-text h3::after {
+    content: "";
+    display: block;
+    width: 15vw;
+    height: 3px;
+    background: gold;
+    right: 875px;
+    top: 50%;
+    position: absolute;
+}
+
+.best-seller-text p{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 100px;
+    text-align: center;
+    background: linear-gradient(
+    to right, 
+    hsl(252, 100%, 49%), 
+    hsl(174, 100%, 50%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.container-new-products {
+    font-family: Roboto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 125px;
+}
+
+.product-image {
+    margin: 8px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0x 1px 3px;
+    flex-basis: 33%.3333;
+}
+
+.product-image-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    padding: 10px;
+}
+
+.product-number {
+    margin: 3px;
+    width: 20px;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;   
+    border: 1px solid gray;
+}
+
+.product-description {
+    width: 100%;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0;
+    border-top: 2px solid gray;
+    line-height: 1.5;
+}

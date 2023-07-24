@@ -1,0 +1,60 @@
+.footer-page a{
+    text-decoration: none;
+}
+
+.footer-page li{
+    list-style: none;
+    color: gray;
+    
+}
+
+.footer-page {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    bottom: 0;
+    margin-top: 200px;
+    background-color: #383934;
+    min-width: 100vw;
+    padding: 25px 0px;
+    margin: auto;
+    font-family: Roboto;
+}
+
+.categories-name {
+    color: white;
+}
+
+
+.categories-list {
+    font-size: 13px;
+    color: #767a72;
+}
+
+.categories-list:hover {
+    color: white;
+}
+
+.footer-contacts {
+    color: white;
+}
+
+.footer-contacts:hover, .footer-product:hover {
+    opacity: 0.5;
+}
+
+.footer-product {
+    color: white;
+    display: block;
+}
+
+.footer-left {
+    line-height: 2;
+    text-align: center;
+}
+
+.information-footer, .address-footer, .phnumber-footer, .email-footer {
+    color: white;
+    line-height: 1.5;
+}

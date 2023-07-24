@@ -1,0 +1,75 @@
+header {
+    font-family: Playfair, Arial;
+    font-size: 18px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.left-section {
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.logo {
+    font-size: 35px;
+    margin-left: 120px;
+}
+
+.logo, 
+.products,
+.categories {
+    margin-right: 30px;
+}
+
+.logo:hover, .products:hover, .categories:hover {
+    opacity: 0.8;
+}
+
+.left-section a {
+    text-decoration: none;
+    color: white;/*#F2D2BD;*/ 
+    font-weight: bolder; 
+}
+
+
+.right-section {
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    border: 1px solid gray;
+    background-color: rgb(230, 230, 230);
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.search-icon-button {
+    background-color: rgb(230, 230, 230);;
+    vertical-align: middle;
+    height: 28px;
+    margin-left: -1px;
+    border-radius: 1px;
+    border: 1px solid gray;
+}
